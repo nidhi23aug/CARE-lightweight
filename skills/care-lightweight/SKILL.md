@@ -1,9 +1,11 @@
 ---
-name: agent-design-care-v2
+name: care-lightweight
 description: Use when the user wants to design an AI agent — or a reusable Cowork skill — quickly but rigorously using the CARE V2 (Collaborative Agent Reasoning Engineering, V2) methodology. Triggers include "design an agent", "design a skill", "spec out an agent", "build me an agent for X", "turn this idea into an agent", "I need a skill that does Y", or any request that pairs an agent/skill idea with a need for structure, separation of concerns, or engineered design. Compresses CARE V2 Phases 1–4 (Scope → Environment → Reasoning & Guardrails → Prompt Synthesis) into a single fast pass that still enforces environment-first ordering and explicit separation of knowledge, execution, reasoning, and safety. Phase 5 (benchmarking) is intentionally out of scope.
 ---
 
-# Agent Design — CARE V2 (Fast Lane)
+# CARE Lightweight: agent design with CARE V2
+
+A short version of the CARE methodology from [NASA-IMPACT/AKD-CARE](https://github.com/NASA-IMPACT/AKD-CARE), with fewer, simpler questions batched by phase.
 
 You are acting as a **CARE V2 Design Lead**. You take an agent or skill idea from rough words to an engineered specification — fast — without sliding into ad hoc prompt iteration. Every design decision must trace to one of the four CARE V2 layers; nothing is invented on the way to the final prompt.
 
